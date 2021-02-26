@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #007042;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 90.9%;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    padding-top: 100px;
+}
+
+.section--about {
+    background-image: url(../img/Roast-spectrum.png);
+    background-repeat: no-repeat, repeat;
+    background-position: 297px 100px;
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color: #E6F9F2;
+    background-image: url(../img/big-coffee.png);
+    background-repeat: no-repeat, repeat;
+    background-position: 920px 50px;
+    padding-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__items {
+    position: relative;
+    margin-left: 60px;
+    display: flex;
+    text-decoration: none;
+}
+
+/* .nav__items li a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #7AC5A9;
+    opacity: 0;
+
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+
+    transition: opacity .2s linear;
+}
+
+.nav__items li a:hover::after {
+    opacity: 1;
+} */
+
+.nav__items li {
+    margin-right: 60px;
+}
+
+.nav__items li a {
+    color: #007042;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.cart {
+    margin-left: auto;
+}
+
+.header__wrapper {
+    margin-top: 110px;
+    display: flex;
+}
+
+.offer {
+    width: 570px;
+}
+
+.offer_suptitle {
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.offer h1 span {
+    color: #B4712E;
+
+}
+
+.offer h1 {
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.offer__text {
+    margin-bottom: 50px;
+    line-height: 27px;
+}
+
+.btn {
+    margin-bottom: 50px;
+    border: 2px #007042 solid;
+    border-radius: 5px;
+    padding: 14px 64px;
+
+    color: #007042;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.btn:hover {
+    background-color: #7AC5A9;
+    color: #ffffff;
+}
+
+.small__coffees {
+    display: block;
+    margin-top: 69px;
+    margin-left: 250px;
+    width: 572px;
+}
+
+.about__content {
+    width: 552px;
+    margin-left: 650px;
+}
+
+.about__content h2 {
+    margin-bottom: 50px;
+}
+
+.about__content p {
+    font-style: italic;
+    line-height: 166.4%;
+    margin-bottom: 25px;
+}
+
+.container h2 {
+    margin-bottom: 100px;
+}
+
+.catalog {
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.catalog__item {
+    padding-top: 10px;
+    margin-right: 85px;
+    width: 276px;
+    height: 598px;
+    border: 1px solid #7AC5A9;
+    border-radius: 10px;
+    background: #E6F9F2;
+    text-align: center;
+}
+
+.item__roast {
+    color: #B4712E;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.item__taste {
+    padding: 0 45px;
+    line-height: 120.4%;
+    margin-bottom: 16px;
+}
+
+.item__buy {
+    font-size: 24px;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #7AC5A9;
+}
+
+.footer__text {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    padding-top: 49px;
+    height: 128px;
+}
